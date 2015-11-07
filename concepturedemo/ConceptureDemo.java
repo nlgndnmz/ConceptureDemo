@@ -204,7 +204,7 @@ implements MouseListener, MouseMotionListener, WindowListener
 				return;		// the user has cancelled						
 		}
 			
-		File outputfile = new File("./snapshots/" + imagePrefix + fileCounter + ".png");
+		File outputfile = new File(imagePrefix + fileCounter + ".png");
 		try
 		{
 			ImageIO.write(offScreen, "png", outputfile);
@@ -448,9 +448,9 @@ implements MouseListener, MouseMotionListener, WindowListener
 		
 		initializeMenu();
 		
-		yellowPoint = new FlatButton(40, this.getHeight()/2-100, 60, 60, Color.YELLOW);
-		pinkPoint = new FlatButton(40, this.getHeight()/2-20, 60, 60, Color.PINK);
-		orangePoint = new FlatButton(40, this.getHeight()/2+60, 60, 60, Color.ORANGE);
+		yellowPoint = new FlatButton(40, this.getHeight()/2-100, 60, 60);
+		pinkPoint = new FlatButton(40, this.getHeight()/2-20, 60, 60);
+		orangePoint = new FlatButton(40, this.getHeight()/2+60, 60, 60);
 	
 		addMouseMotionListener(this);
 		addMouseListener(this);
