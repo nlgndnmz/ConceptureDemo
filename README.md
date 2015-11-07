@@ -1,8 +1,7 @@
 ## ConceptureDemo
 #### author: Nilgun Donmez
 
-In progress.. 
+This is a demo for the Concepture package, a proof-of-concept Java library to recognize digitally sketched gestures with varying and repetitive patterns. The framework of Concepture has been described in the proceedings of SBIM12:
 
-This is a demo for the Concepture package, a library to author and recognise sketched drawings.
-
+http://dl.acm.org/citation.cfm?id=2331073
 
